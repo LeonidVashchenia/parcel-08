@@ -1,6 +1,5 @@
 import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
-// import localStorage from './storage';
 import { save, load } from './storage';
 
 const CURRENT_TIME_KEY = 'videoplayer-current-time';
