@@ -8,18 +8,22 @@
   <title>test</title>
   <link rel="stylesheet" href="css/common.css" />
   <link rel="stylesheet" href="css/04-test.css" />
+
 </head>
 
 <body>
   <p><a href="index.html">Go back</a></p>
-  <div class="timer">
-    <p class="clockface js-clockface"></p>
-  </div>
 
-  <div class="actions">
-    <button type="button" data-action-start class="btn btn-start">Тисни курва</button>
-    <button type="button" data-action-stop class="btn btn-stop">Курва стоп</button>
-  </div>
+  <section class="gallery-section">
+    <div class="container">
+      <form class="search-form js-search-form">
+        <input type="text" name="query" class="search-input">
+        <button type="submit" class="search-input">" search "<span class="material-icons">search</span></button>
+      </form>
+      <ul class="gallery js-gallery list"></ul>
+      <button type="button" class="load-more js-load-more">Load more</button>
+    </div>
+  </section>
 
   <script src="js/04-test.js" type="module"></script>
 </body>
